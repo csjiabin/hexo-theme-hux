@@ -22,11 +22,16 @@ permalink_defaults:
 SEOTitle: CSjiabin的博客 | CSjiabin's Blog
 header-img: /img/home-bg-o.jpg
 email: qq1187712426@gmail.com
-description: ""
+description: "Goals determine what you going to be!!"
 keyword: "hjb, csjiabin, csjiabin Blog, 黄佳滨的博客, huangjiabin, 黄佳滨, html, css, javascript, js, JavaScript, Node, node, nodejs, h5, html5, 小程序, vue"
 signature: true #show signature
 signature-img: /img/signature/white.png 
 
+# 自动生成sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
 search:
     path: search.xml
     field: post
@@ -68,9 +73,12 @@ gitalk:
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 2620e69674d25088f870bef114e8ff89
+bd_site_verification: aifbHeRmzy
+
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-124238838-1'            # Format: UA-xxxxxx-xx
+ga_domain: csjiabin.github.io
+google_site_verification: Xk9YWz2-rBE9P5__qdWz3nUr4zb9bIDSdANHpezjB04
 
 
 # Sidebar settings

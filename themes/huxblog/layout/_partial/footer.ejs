@@ -168,6 +168,16 @@
 
     ga('create', _gaId, _gaDomain);
     ga('send', 'pageview');
+    
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?<%= config.ga_track_id %>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '<%= config.ga_track_id %>');
 </script>
 
 <% } %>
@@ -189,7 +199,21 @@
     })();
 </script>
 <% } %>
-
+<script src="https://c.mipcdn.com/static/v1/mip.js"></script>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
 <!-- Side Catalog -->
 <% if (page.catalog) { %>
 <script type="text/javascript">
