@@ -420,7 +420,7 @@ var argArray = Array.from(arguments)
 var argArray = [...arguments];
 ```
 
-### 获取日期时间缀
+#### 获取日期时间缀
 ```js
 // 获取指定时间的时间缀
 new Date().getTime();
