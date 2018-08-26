@@ -142,6 +142,19 @@ highlight:
   auto_detect: true
   tab_replace:
 
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: “”‘’
+    pre_class: highlight
+    
 # Category & Tag
 default_category: uncategorized
 category_map:

@@ -20,6 +20,12 @@ tags:
 > 废话不多说，接下来会以我的博客为例子搭建一个hexo的giahub pages！
 ### Hexo相关命令总结
 ```shell 
+$ hexo init #初始化一个项目
+
+$ hexo new page "xxx" #生成页面
+
+$ hexo new "" #生成文章
+
 $ hexo clean #清除缓存
 
 $ hexo s  #启动本地服务
@@ -27,12 +33,6 @@ $ hexo s  #启动本地服务
 $ hexo g  #保存修改，生成文件
 
 $ hexo d  #发布到远程
-
-$ hexo init #生成站点
-
-$ hexo new page "xxx" #生成页面
-
-$ hexo new "" #生成文章
 
 $ npm install --save xxx  #安装插件
 
@@ -116,7 +116,8 @@ featured-tags: true   # whether or not using Feature-Tags
 ```shell
 $ hexo new post <post name>  # 或者`hexo new <post name>`生成文章
 ```
-要发表的文章一般以 Markdown 的格式放在这里_posts/，你只要看看这篇模板里的文章你就立刻明白该如何设置。
+要发表的文章一般以 `Markdown` 的格式放在这里`_posts/`，你只要看看这篇模板里的文章你就立刻明白该如何设置。
+> 不同`Markdown`格式语法的可以看这篇 [文章 &rarr;](/2018/08/26/Markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
 ```yml
 ---
 title: '<post name>'
@@ -144,7 +145,7 @@ disqus_username: csjiabin
 ```
 > 另外你可以其他评论系统使用，例： `Gitalk`、`多说` 等
 
-#### 部署到github
+### 部署到github
 上面所有的操作完成之后，你就可以将你的Blog项目部署到github上了。
 部署之前先修改`_config.yml`文件。
 ```yml
