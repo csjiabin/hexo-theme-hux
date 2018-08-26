@@ -162,4 +162,5 @@ $ hexo deploy(d)    # 部署到github可与hexo g合并为 hexo d -g
 ```
 
 ### Have fun ^_^
-如果你喜欢这个项目请给我点个[Star](https://github.com/csjiabin/csjiabin.github.io/stargazers)吧！[Following](https://github.com/csjiabin) 也将不胜感激!如有疑问可以给我留言，我会第一时间为您解答！
+如果你喜欢这个项目请给我点个[Star](https://github.com/csjiabin/csjiabin.github.io/stargazers)吧！[Following](https://github.com/csjiabin) 也将不胜感激!
+如有其他疑问可以给我留言，我会第一时间为您解答！
