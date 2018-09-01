@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-catalog: true
+catalog: false
 author: "CSjiabin"
 header-img: "/img/home-bg.jpg"
 tags:

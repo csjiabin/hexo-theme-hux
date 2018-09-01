@@ -19,6 +19,9 @@
     }
     <%}%>
 </style>
+<%if (is_post()){%>
+<%- css('css/post-style.css') %>
+<%}%>
 <% if(!page.iframe){ %>
 <header class="intro-header" >
     <!-- Signature -->

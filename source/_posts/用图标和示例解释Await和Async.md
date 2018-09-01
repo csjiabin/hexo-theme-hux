@@ -1,7 +1,7 @@
 ---
 title: "用图标和示例解释Await和Async"
 date: 2018-08-18 20:58:31
-catalog: true
+catalog: false
 author: CSjiabin
 tags:
     - es7

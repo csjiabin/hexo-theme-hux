@@ -1,6 +1,6 @@
 ---
 title: 'Hexo,创建属于你自己的博客'
-catalog: true
+catalog: false
 author: CSjiabin
 header-img: /img/home-bg.jpg
 date: 2018-08-16 22:58:09

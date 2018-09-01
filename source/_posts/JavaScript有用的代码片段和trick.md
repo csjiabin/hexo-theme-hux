@@ -1,6 +1,6 @@
 ---
 title: JavaScript有用的代码片段和trick
-catalog: true
+catalog: false
 author: CSjiabin
 header-img: /img/home-bg.jpg
 date: 2018-08-22 21:51:29
