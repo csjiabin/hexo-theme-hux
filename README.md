@@ -2,7 +2,7 @@
 
 > 移植的主题 [Hux Blog](https://github.com/Huxpro/huxpro.github.io), 感谢 [Huxpro](https://github.com/Huxpro) 设计这样一个完美的主题。
 
-### [Example &rarr;](https://csjiabin.github.io/) （已迁移主题`next` [hexo-theme-next](https://github.com/csjiabin/hexo-theme-next)）
+### [Example &rarr;](https://csjiabin.github.io/hux) （已迁移主题至`next` [hexo-theme-next](https://github.com/csjiabin/hexo-theme-next)）
 
 
 ![](/screenshot/WX20180823-100155.png)
